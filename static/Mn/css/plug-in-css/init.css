@@ -1,0 +1,30 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, img, div, span, section, footer, em, input, textarea{ margin:0; padding:0; box-sizing: border-box;} 
+fieldset, img,input,button, textarea { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","黑体";}
+select, input, textarea{ vertical-align:middle; }
+select, input, textarea { margin:0; }
+textarea { resize:none; }
+img {border:0;    vertical-align:middle;}
+table { border-collapse:collapse; }
+body {
+    font-family:'微软雅黑', 'Adobe 黑体 Std';
+    font:Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after{ 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/ 
+} 
+a{color:#666; text-decoration:none;transition:All 0.4s ease;-webkit-transition:All 0.4s ease;-moz-transition:All 0.4s ease;-o-transition:All 0.4s ease;}
+/* a:hover{color:#C81623;} */
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
