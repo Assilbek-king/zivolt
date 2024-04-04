@@ -19,6 +19,8 @@ class Product(models.Model):
     description = models.TextField(blank=True)
     image1 = models.ImageField(upload_to='upload', blank=True)
     image2 = models.ImageField(upload_to='upload', blank=True)
+    table = models.ImageField(upload_to='upload', blank=True)
+    table2 = models.ImageField(upload_to='upload', blank=True)
 
 
 

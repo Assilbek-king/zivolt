@@ -145,26 +145,10 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
     
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="../gtag/js?id=G-RRN0KN41M1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-RRN0KN41M1');
-gtag('config', 'AW-411118657');
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="../gtag/js-2?id=UA-171431524-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171431524-1');
-</script>
 <div class="headDiv headDiv2">
     <div class="wal">
-        <a href="index.htm" class="logo" style="left: 50%;
+        <a href="/" class="logo" style="left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);">
             <img src="/static/logo.png" alt=""></a>
@@ -224,10 +208,10 @@ gtag('config', 'AW-411118657');
 <!--            </ul>-->
 <!--            <div class="clear_f"></div>-->
 <!--        </div>-->
-        <a href="javascript:;" class="navIco">
-            <img src="/static/En/images/navIco.png" alt=""></a>
-        <a href="" class="shopIco">
-            <img src="/static/En/images/nimg54_1.png" alt=""></a>
+<!--        <a href="javascript:;" class="navIco">-->
+<!--            <img src="/static/En/images/navIco.png" alt=""></a>-->
+<!--        <a href="" class="shopIco">-->
+<!--            <img src="/static/En/images/nimg54_1.png" alt=""></a>-->
     </div>
 </div>
 
@@ -241,7 +225,7 @@ gtag('config', 'AW-411118657');
     </div>
 </div>
 
-<div class="sNav">
+<div class="sNav"   >
     <div class="list">
         <ul>
               <li><a href="../EAbout/about.html">Brand</a></li> <li><a href="../EAbout/honor.html">Honor & Award</a></li> <li><a href="../EAbout/technology.html">Core Tech</a></li> <li><a href="../EAbout/distributor.html">Distributor</a></li>
@@ -250,74 +234,74 @@ gtag('config', 'AW-411118657');
     </div>
 </div>
 <!---->
-<div class="navLayer">
-    <div class="bg">
-         <div class="close">
-             <a href="javascript:;" class="closeBtn"><img src="../En/images/close.png"></a>
-         </div>
-         <div class="box">
-            <div class="form">
-                <input type="text" class="input1 input_hover" id="txtkeye" title="Please enter the search content" placeholder="Please enter the search content" onfocus="if (value ==''){value =''}" onblur="if (value ==''){value=''}">
-                <input type="button" class="btn1" onclick="searchse();" id="btnsearchse">
-                    <script type="text/javascript">
+<!--<div class="navLayer">-->
+<!--    <div class="bg">-->
+<!--         <div class="close">-->
+<!--             <a href="javascript:;" class="closeBtn"><img src="../En/images/close.png"></a>-->
+<!--         </div>-->
+<!--         <div class="box">-->
+<!--            <div class="form">-->
+<!--                <input type="text" class="input1 input_hover" id="txtkeye" title="Please enter the search content" placeholder="Please enter the search content" onfocus="if (value ==''){value =''}" onblur="if (value ==''){value=''}">-->
+<!--                <input type="button" class="btn1" onclick="searchse();" id="btnsearchse">-->
+<!--                    <script type="text/javascript">-->
 
-                        $(document).ready(function () {
-                            $("#txtkeye").keydown(function (e) {
-                                if (e.keyCode == 13) {
+<!--                        $(document).ready(function () {-->
+<!--                            $("#txtkeye").keydown(function (e) {-->
+<!--                                if (e.keyCode == 13) {-->
 
-                                    if (document.getElementById("txtkeye").value == "" || document.getElementById("txtkey").value == "Please enter the search content" || document.getElementById("txtkeye").value == null)
-                                    { return false; }
-                                    document.getElementById("btnsearchse").click();
-                                }
-                            })
-                        })
+<!--                                    if (document.getElementById("txtkeye").value == "" || document.getElementById("txtkey").value == "Please enter the search content" || document.getElementById("txtkeye").value == null)-->
+<!--                                    { return false; }-->
+<!--                                    document.getElementById("btnsearchse").click();-->
+<!--                                }-->
+<!--                            })-->
+<!--                        })-->
 
-                        function searchse() {
-                            if (document.getElementById("txtkeye").value == "" || document.getElementById("txtkeye").value == "Please enter the search content" || document.getElementById("txtkeye").value == null) {
-                                alert("Please enter the search content");
-                                //Salert("", "请输入关键字");
-                                document.getElementById("txtkeye").focus();
-                                return;
-                            }
-                            location.href = "/Eseacher.aspx?k=" + document.getElementById("txtkeye").value;
+<!--                        function searchse() {-->
+<!--                            if (document.getElementById("txtkeye").value == "" || document.getElementById("txtkeye").value == "Please enter the search content" || document.getElementById("txtkeye").value == null) {-->
+<!--                                alert("Please enter the search content");-->
+<!--                                //Salert("", "请输入关键字");-->
+<!--                                document.getElementById("txtkeye").focus();-->
+<!--                                return;-->
+<!--                            }-->
+<!--                            location.href = "/Eseacher.aspx?k=" + document.getElementById("txtkeye").value;-->
 
-                        }
+<!--                        }-->
 
-                        function EnterPress(e) { //传入 event 
-                            var e = e || window.event;
-                            if (e.keyCode == 13) {
-                                document.getElementById("btnsearchse").focus();
-                            }
-                        }
-            </script>
-            </div>
-        </div>
-        <div class="sideNav">
-          
-           
-             <div class="subNav"><div class="name"><a href="product.html">Smart Lock</a></div></div>
-            
-             <div class="subNav"><div class="name"><a href="../News/index.html">News</a></div></div>
-            <div class="subNav1 subNav"><div class="name">Contact</div></div>
-            	<ul class="navContent">
-                     <li><a href="../EContact/contact.html">Contact</a></li>
-                </ul>
- <div class="subNav1 subNav"><div class="name">About Kaadas</div></div>
-                <ul class="navContent">
-                   <li><a href="../EAbout/about.html">Brand</a></li> <li><a href="../EAbout/honor.html">Honor & Award</a></li> <li><a href="../EAbout/technology.html">Core Tech</a></li> <li><a href="../EAbout/distributor.html">Distributor</a></li>
-                </ul>
-            <div class="subNav"><div class="name"><a href="../index.htm">Home</a></div></div>
-        </div>
-    </div>
-</div>
+<!--                        function EnterPress(e) { //传入 event -->
+<!--                            var e = e || window.event;-->
+<!--                            if (e.keyCode == 13) {-->
+<!--                                document.getElementById("btnsearchse").focus();-->
+<!--                            }-->
+<!--                        }-->
+<!--            </script>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="sideNav">-->
+<!--          -->
+<!--           -->
+<!--             <div class="subNav"><div class="name"><a href="product.html">Smart Lock</a></div></div>-->
+<!--            -->
+<!--             <div class="subNav"><div class="name"><a href="../News/index.html">News</a></div></div>-->
+<!--            <div class="subNav1 subNav"><div class="name">Contact</div></div>-->
+<!--            	<ul class="navContent">-->
+<!--                     <li><a href="../EContact/contact.html">Contact</a></li>-->
+<!--                </ul>-->
+<!-- <div class="subNav1 subNav"><div class="name">About Kaadas</div></div>-->
+<!--                <ul class="navContent">-->
+<!--                   <li><a href="../EAbout/about.html">Brand</a></li> <li><a href="../EAbout/honor.html">Honor & Award</a></li> <li><a href="../EAbout/technology.html">Core Tech</a></li> <li><a href="../EAbout/distributor.html">Distributor</a></li>-->
+<!--                </ul>-->
+<!--            <div class="subNav"><div class="name"><a href="../index.htm">Home</a></div></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
     <!---->
     <div class="proMsg">
         <div class="wal">
             <div class="name fl">{{ product.title }}</div>
             <div class="tab2 list fr">
                 <ul>
-                    <li class="liNow">Характеристика</li>
-                    <li>Описания</li>
+                    <li style="color:white" class="liNow">Характеристика</li>
+                    <li style="color:white">Описания</li>
                     
 <!--                       <li><a href="downloads.html">Download</a></li>-->
                 </ul>
@@ -359,15 +343,15 @@ gtag('config', 'AW-411118657');
         </div>
         <div class="tabContent2  parameter">
             <div class="wal">
-                <div class="title">Specification parameter</div>
+                <div class="title">Технические характеристики замка <b> Модель {{ product.title }} </b></div>
                     
-                <div class="leftDiv fl">
-                    <div class="list"><img alt="" src="../vancheerfile/Images/2021/12/2021121316039390.jpg" style="width: 502px; height: 413px;">   </div>
+                <div class="leftDiv fl" style="padding-left:0px;width:100%">
+                    <div class="list"><img alt="" src="/media/{{ product.table }}" style="width: 502px; height: 413px;">   </div>
                 </div>
             
 
-                <div class="rightDiv fr">
-                    <div class="list"><img alt="" src="../vancheerfile/Images/2021/12/20211213160326271.jpg">   </div>
+                <div class="rightDiv fr" style="padding-right:0px;width:100%">
+                    <div class="list"><img alt="" src="/media/{{ product.table2 }}">   </div>
                 </div>
             
            
@@ -379,7 +363,7 @@ gtag('config', 'AW-411118657');
             <div class="fuild-container d-flex " style="background: #29292c;justify-content: center;align-items: center;height:50px">
 
 
-    <div style="color:white">©2024. Designed by  <a href="https://www.instagram.com/ithub.kz/" target="_blank">Ithub</a> </div>
+    <div style="color:white">©2024. Designed by  <a href="https://www.instagram.com/asilbek_korganbaev/" target="_blank">Assilbek</a> </div>
 </div>
 
 <!--<div class="footDiv">-->
