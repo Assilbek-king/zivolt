@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'main',
 ]
 
-CSRF_TRUSTED_ORIGINS=["http://zivolt.kz"]
+CSRF_TRUSTED_ORIGINS=["https://zivolt.kz"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
